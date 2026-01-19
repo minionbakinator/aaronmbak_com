@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Basic Codes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">← Back to Home</a></li>
+            </ul>
+        </nav>
+
+        <section class="hero">
+            <h1>JavaScript Basics</h1>
+            <p>Learn the 3 main ingredients of coding.</p>
+        </section>
+
+        <!-- Lesson 1 -->
+        <section id="vars">
+            <h2>1. Variables</h2>
+            <p>Variables are containers for storing data values.</p>
+            <div class="card">
+                <pre><code>let myName = "Aaron";</code></pre>
+                <div style="margin-top: 10px;">
+                    <p>Enter your name below:</p>
+                    <input type="text" id="nameInput" placeholder="Type here..." style="padding: 5px;">
+                    <button class="btn" id="nameBtn">Save Variable</button>
+                    <p id="nameOutput" style="margin-top: 10px; font-weight: bold;"></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Lesson 2 -->
+        <section id="func">
+            <h2>2. Functions</h2>
+            <p>Functions are blocks of code you can run on demand.</p>
+            <div class="card">
+                <pre><code>function sayHello() {
+  alert("Hello!");
+}</code></pre>
+                <button class="btn" id="funcBtn" style="margin-top: 10px;">Run Function</button>
+            </div>
+        </section>
+
+        <!-- Lesson 3 -->
+        <section id="logic">
+            <h2>3. Conditions (Logic)</h2>
+            <p>Code can make decisions using "if" statements.</p>
+            <div class="card">
+                <pre><code>if (number > 10) {
+  return "Big number";
+} else {
+  return "Small number";
+}</code></pre>
+                <div style="margin-top: 10px;">
+                    <input type="number" id="numInput" placeholder="Enter a number" style="padding: 5px;">
+                    <button class="btn" id="numBtn">Check Number</button>
+                    <p id="numOutput" style="margin-top: 10px; font-weight: bold;"></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Lesson 4 -->
+        <section id="arrays">
+            <h2>4. Arrays (Lists)</h2>
+            <p>Arrays are used to store multiple values in a single variable.</p>
+            <div class="card">
+                <pre><code>let shoppingList = ["Apples", "Bananas"];</code></pre>
+                <div style="margin-top: 10px;">
+                    <input type="text" id="arrayInput" placeholder="Add an item..." style="padding: 5px;">
+                    <button class="btn" id="arrayBtn">Add to List</button>
+                    <p style="margin-top:10px;">Your List: <span id="arrayOutput" style="font-weight:bold;">[]</span>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Lesson 5 -->
+        <section id="loops">
+            <h2>5. Loops</h2>
+            <p>Loops run a block of code over and over again.</p>
+            <div class="card">
+                <pre><code>for (let i = 1; i <= 5; i++) {
+  console.log(i);
+}</code></pre>
+                <div style="margin-top: 10px;">
+                    <button class="btn" id="loopBtn">Count to 5</button>
+                    <p id="loopOutput" style="margin-top: 10px; font-weight: bold; font-family: monospace;"></p>
+                </div>
+            </div>
+        </section>
+        <footer style="margin-top: 50px; text-align: center;">
+            <a href="index.html">Return to Main Menu</a>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

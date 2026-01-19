@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Dev 101</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#html">HTML</a></li>
+                <li><a href="#css">CSS</a></li>
+                <li><a href="#js">JavaScript</a></li>
+                <li><a href="javascript-tutorial.html" style="font-weight: bold; color: #2563eb;">Full JS Outline</a>
+                </li>
+            </ul>
+        </nav>
+
+        <section class="hero">
+            <h1>Learn to Build a Website</h1>
+            <p>A simple guide to making your own web pages.</p>
+        </section>
+
+        <section id="html">
+            <h2>1. HTML (Structure)</h2>
+            <p>HTML (HyperText Markup Language) is the backbone of any website. It uses "tags" to define elements.</p>
+
+            <div class="card">
+                <h3>Example</h3>
+                <pre><code>&lt;h1&gt;My Heading&lt;/h1&gt;
+&lt;p&gt;My paragraph text.&lt;/p&gt;</code></pre>
+            </div>
+        </section>
+
+        <section id="css">
+            <h2>2. CSS (Style)</h2>
+            <p>CSS (Cascading Style Sheets) controls how your HTML looks (colors, fonts, spacing).</p>
+
+            <div class="card">
+                <h3>Example</h3>
+                <pre><code>h1 {
+  color: blue;
+  font-size: 24px;
+}</code></pre>
+            </div>
+        </section>
+
+        <section id="js">
+            <h2>3. JavaScript (Action)</h2>
+            <p>JavaScript adds interactivity, like reacting to clicks.</p>
+
+            <div class="card" style="text-align: center;">
+                <h3>Try it</h3>
+                <div id="demo-target" style="padding: 10px; border: 1px solid #ccc; margin-bottom: 10px;">I am a box
+                </div>
+                <button id="demo-btn" class="btn">Change Color</button>
+            </div>
+            <p style="margin-top: 10px; font-size: 0.9em;">Want to learn more? <a href="javascript-tutorial.html">Click
+                    here for the JavaScript Basics page.</a></p>
+        </section>
+
+        <footer style="margin-top: 50px; text-align: center; color: #666;">
+            <p>Keep it simple.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

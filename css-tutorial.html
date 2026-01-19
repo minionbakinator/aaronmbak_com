@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Details</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">← Back to Home</a></li>
+            </ul>
+        </nav>
+
+        <section class="hero">
+            <h1>CSS Details</h1>
+            <p>Making things look good.</p>
+        </section>
+
+        <!-- Lesson 1 -->
+        <section id="colors">
+            <h2>1. Colors</h2>
+            <p>You can color text with `color` and backgrounds with `background-color`.</p>
+            <div class="card">
+                <pre><code>.my-box {
+  color: white;
+  background-color: blue;
+}</code></pre>
+                <div style="margin-top: 10px; padding: 10px; border: 1px solid #ddd; width: 100px; text-align: center;"
+                    id="colorDemo">
+                    I am a Box
+                </div>
+                <button class="btn" id="colorBtn" style="margin-top: 10px;">Toggle Color</button>
+            </div>
+        </section>
+
+        <!-- Lesson 2 -->
+        <section id="boxmodel">
+            <h2>2. The Box Model</h2>
+            <p>Everything in styling is a box. It has <strong>Padding</strong> (space inside) and
+                <strong>Margin</strong> (space outside).</p>
+            <div class="card">
+                <div style="background: #e5e7eb; display: inline-block;">
+                    <div id="boxModelDemo"
+                        style="background: #2563eb; color: white; padding: 10px; margin: 0px; transition: all 0.3s;">
+                        Content
+                    </div>
+                </div>
+                <div style="margin-top: 20px;">
+                    <button class="btn" id="paddingBtn">Add Padding (Inside)</button>
+                    <button class="btn" id="marginBtn" style="background: #333;">Add Margin (Outside)</button>
+                    <button class="btn" id="resetBtn" style="background: #999;">Reset</button>
+                </div>
+                <p id="boxOutput" style="margin-top: 10px; font-size: 0.9em;">Padding: 10px, Margin: 0px</p>
+            </div>
+        </section>
+
+        <footer style="margin-top: 50px; text-align: center;">
+            <a href="index.html">Return to Main Menu</a>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

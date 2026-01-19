@@ -1,0 +1,110 @@
+/* 
+  Theme: Clean Minimalist
+  Easy to read, easy to learn.
+*/
+
+:root {
+    --primary-color: #2563eb;
+    /* Simple Blue */
+    --bg-color: #ffffff;
+    --text-color: #333333;
+    --code-bg: #f4f4f5;
+    --border-color: #e5e7eb;
+}
+
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+    background: var(--bg-color);
+    margin: 0;
+    padding: 0;
+}
+
+/* Layout */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Typography */
+h1 {
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+}
+
+h2 {
+    margin-top: 40px;
+    border-bottom: 2px solid var(--border-color);
+    padding-bottom: 10px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Components */
+.btn {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.btn:hover {
+    opacity: 0.9;
+    text-decoration: none;
+}
+
+.card {
+    border: 1px solid var(--border-color);
+    padding: 20px;
+    border-radius: 8px;
+    background: #fafafa;
+    margin-bottom: 20px;
+}
+
+/* Code Blocks */
+pre {
+    background: var(--code-bg);
+    padding: 15px;
+    border-radius: 5px;
+    overflow-x: auto;
+    font-family: monospace;
+}
+
+/* Navigation */
+nav {
+    border-bottom: 1px solid var(--border-color);
+    padding: 15px 0;
+    margin-bottom: 40px;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-links li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Hero */
+.hero {
+    text-align: center;
+    padding: 40px 0;
+}
