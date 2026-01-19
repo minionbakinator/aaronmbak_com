@@ -22,3 +22,27 @@ if choice == 3:
     number2 = int(input ("Enter the second number: "))
     print ("The product of number1 and number2 is number1*number2")
     print (f"The product of number1 and number2 is:" ,number1*number2)
+
+if choice == 4:
+    print ("You have chosen division")
+    print ("What are the numbers you want to divide?")
+    number1 = int(input ("Enter the first number: "))
+    number2 = int(input ("Enter the second number: "))
+    print ("The quotient of number1 and number2 is number1/number2")
+    print (f"The quotient of number1 and number2 is:" ,number1/number2)
+
+if choice == 2:
+    print ("You have chosen subtraction")
+    print ("What are the numbers you want to subtract?")
+    number1 = int(input ("Enter the first number: "))
+    number2 = int(input ("Enter the second number: "))
+    print ("The difference of number1 and number2 is number1-number2")
+    print (f"The difference of number1 and number2 is:" ,number1-number2)
+
+if choice ==1:
+    print ("You have chosen addition")
+    print ("What are the numbers you want to add?")
+    number1 = int(input ("Enter the first number: "))
+    number2 = int(input ("Enter the second number: "))
+    print ("The sum of number1 and number2 is number1+number2")
+    print (f"The sum of number1 and number2 is:" ,number1+number2)
